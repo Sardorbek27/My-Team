@@ -1,0 +1,106 @@
+.manage-section {
+    background-color: #012F34;
+    background-image: url("../../images/manage-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100px 244px;
+    background-position: bottom right;
+}
+.manage {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.manage__manage-wrapper {
+    width: 445px;
+}
+.manage__line {
+    width: 50px;
+    height: 4px;
+    margin-top: 140px;
+    margin-bottom: 54px;
+    display: inline-block;
+    background-color: #F67E7E;
+}
+.manage__title {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.manage__card {
+    width: 540px;
+    margin-top: 198px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.manage__card-list {
+    display: flex;
+}
+.manage__img {
+    width: 445px;
+    margin-left: 23px;
+    align-items: center;
+}
+.manage__content-title {
+    color: #F67E7E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.manage__text {
+    margin-bottom: 15px;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+@media only screen and (max-width:768px){
+    .manage-section {
+        background-position: top right;
+    }
+    .manage {
+        flex-direction: column;
+    }
+    .manage__manage-wrapper {
+        width: 445px;
+    }
+    .manage__title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .manage__card {
+        width: 100%;
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+@media only screen and (max-width:445px){
+    .manage__manage-wrapper {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:560px){
+    .manage__manage-wrapper{
+        width: 240px;
+    }
+    .manage__card {
+        margin-top: 64px;
+        padding-bottom: 64px;
+    }
+    .manage__text {
+        margin-bottom: 48px;
+        text-align: center;
+    }
+    .manage__line{
+        margin-bottom: 32px;
+    }
+}
+@media only screen and (max-width:241px){
+    .manage__manage-wrapper{
+        width: 100%;
+    }
+}

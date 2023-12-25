@@ -1,0 +1,76 @@
+.site-story{
+    background-color: #004047;
+    background-image: url("../../images/manage-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.story-inner{
+    margin-left: 125px;
+    width: 932px;
+    padding-top: 140px;
+    margin-bottom: 92px;
+}
+.story-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+}
+.story-bold{
+    color: #79C8C7;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.story-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.story-item{
+    width: 350px;
+    padding-bottom: 150px;
+}
+.story-text{
+    margin-bottom: 24px;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+.story-bookmark{
+    text-align: center;
+}
+.story-name{
+    margin-bottom: 2px;
+    color: #79C8C7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.story-text-inner{
+    margin-bottom: 32px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+}
+@media only screen and (max-width:768px){
+    .story{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:560px){
+    .story{
+        width: 100%;
+
+    }
+}
